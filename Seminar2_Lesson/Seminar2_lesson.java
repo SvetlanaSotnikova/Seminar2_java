@@ -12,7 +12,8 @@ public class Seminar2_lesson {
         // task2("aaaabbbcdd");
         // System.out.println(task3("cacac"));
         // task4(task4_1(10, "Cool"));
-        task5();
+        // task5();
+        task6();
     }
 
     static String task1(int n, char c1, char c2) {
@@ -121,6 +122,29 @@ public class Seminar2_lesson {
         // 2 Расширение файла: pdf
         // 3 Расширение файла:
         // 4 Расширение файла: jpg
-    }
+        File folder = new File(".");
+        File[] files = folder.listFiles();
 
+        if (files != null) {
+            int count = 0;
+
+            for (File file : files) {
+                if (file.isFile()) {
+                    count++;
+                    String fileName = file.getName();
+                    int dotIndex = fileName.lastIndexOf(".");
+
+                    String exception = (dotIndex == -1) ? "" : fileName.substring(dotIndex + 1);
+
+                    System.out.println(count + " Расширение файла: " + exception);
+
+                    if (count == 0) {
+                        System.out.println("В текущей папке нет файлов.");
+                    }
+                }
+            }
+        } else {
+            System.out.println("Ошибка при доступе к содержимому текущей папки");
+        }
+    }
 }
