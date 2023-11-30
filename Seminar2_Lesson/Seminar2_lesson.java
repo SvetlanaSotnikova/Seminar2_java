@@ -8,11 +8,11 @@ import java.io.File;
 
 public class Seminar2_lesson {
     public static void main(String[] args) {
-        // System.out.println(task1(40, 'h', 'a'));
-        // task2("aaaabbbcdd");
-        // System.out.println(task3("cacac"));
-        // task4(task4_1(10, "Cool"));
-        // task5();
+        System.out.println(task1(40, 'h', 'a'));
+        task2("aaaabbbcdd");
+        System.out.println(task3("cacac"));
+        task4(task4_1(10, "Cool"));
+        task5();
         task6();
     }
 

@@ -1,0 +1,31 @@
+
+Iteration 1, step 1: 34 64 25 12 22 11 90 
+Iteration 1, step 2: 34 25 64 12 22 11 90 
+Iteration 1, step 3: 34 25 12 64 22 11 90 
+Iteration 1, step 4: 34 25 12 22 64 11 90 
+Iteration 1, step 5: 34 25 12 22 11 64 90 
+Iteration 2, step 1: 25 34 12 22 11 64 90 
+Iteration 2, step 2: 25 12 34 22 11 64 90 
+Iteration 2, step 3: 25 12 22 34 11 64 90 
+Iteration 2, step 4: 25 12 22 11 34 64 90 
+Iteration 3, step 1: 12 25 22 11 34 64 90 
+Iteration 3, step 2: 12 22 25 11 34 64 90 
+Iteration 3, step 3: 12 22 11 25 34 64 90 
+Iteration 4, step 2: 12 11 22 25 34 64 90 
+Iteration 5, step 1: 11 12 22 25 34 64 90 
+
+Final sorted array: 11 12 22 25 34 64 90 
+
+Iteration 1, step 1: 5 45 14 65 54 23 65 20 
+Iteration 1, step 2: 5 14 45 65 54 23 65 20 
+Iteration 1, step 4: 5 14 45 54 65 23 65 20 
+Iteration 1, step 5: 5 14 45 54 23 65 65 20 
+Iteration 1, step 7: 5 14 45 54 23 65 20 65 
+Iteration 2, step 4: 5 14 45 23 54 65 20 65 
+Iteration 2, step 6: 5 14 45 23 54 20 65 65 
+Iteration 3, step 3: 5 14 23 45 54 20 65 65 
+Iteration 3, step 5: 5 14 23 45 20 54 65 65 
+Iteration 4, step 4: 5 14 23 20 45 54 65 65 
+Iteration 5, step 3: 5 14 20 23 45 54 65 65 
+
+Final sorted array: 5 14 20 23 45 54 65 65 

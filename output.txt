@@ -32,3 +32,10 @@ log.txt.lck
 output.txt
 Seminar2_Lesson
 text.txt
+.git
+log.txt
+log.txt.lck
+output.txt
+Seminar2_Homework
+Seminar2_Lesson
+text.txt
